@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.row1, .terminal-screen {
+  height: 100%;
+}
+.terminal-screen {
+  background-size: cover;
+  background-color: black;
+}
+.screen-output {
+  color: white;
+}
+.row2 {
+  display: flex;
+}
+.column1 {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+.column2 {
+  float: left;
+  width: 85%;
+  padding: 5px;
+  background-color: white;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+/* foundation done - next detail enhancements */
+.row2 {
+  background-color: #325D79;
+}
+.content {
+  text-align: center;
+}
+nav {
+  background-color: #325D79;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 40px;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+.aboutMe, .mySkills, .contactMe {
+  font-size: 20px;
+}
+.contactMe {
+  padding: 10px;
+}
+.contactMe a{
+  padding: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-right: 50px;
+}
